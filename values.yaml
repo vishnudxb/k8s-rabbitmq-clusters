@@ -1,7 +1,7 @@
 ## RabbitMQ application credentials
 ## Ref: http://rabbitmq.com/access-control.html
 ##
-rabbitmqUsername: shopbonsai
+rabbitmqUsername: admin
 rabbitmqPassword: E9YMkr4s2qc
 
 ## RabbitMQ Management user used for health checks

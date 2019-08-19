@@ -1,4 +1,4 @@
-# K8s cluster for RabbitMq
+# K8s cluster for RabbitMQ 
 
 
 Setting a RabbitMQ cluster with high availability and creating a queue with AMQPS (AMQP with SSL)
@@ -123,7 +123,7 @@ gcloud compute firewall-rules create rabbitmq-access --allow tcp:12345,tcp:23456
 
 ```
 
-cd ~/k8s-rabbitmq/ssl
+cd ~/k8s-rabbitmq-clusters/ssl
 
 python3 publish.py && python3 consume.py
 
